@@ -1,0 +1,65 @@
+name: doa_exchange_client
+description: doa_exchange_client
+
+publish_to: "none"
+
+version: 1.0.1+1
+
+environment:
+  sdk: ">=2.18.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # Dependency Injection
+  injectable: ^1.5.4
+  get_it: ^7.2.0
+  get: ^4.6.5
+
+  # Filesystem
+  path: ^1.8.2
+  path_provider: ^2.0.14
+
+  # Networking
+  retrofit: ^3.3.1
+  dio: ^4.0.6
+  dio_cookie_manager: any
+
+  # JSON
+  json_annotation: ^4.8.0
+  freezed_annotation: ^2.2.0
+  json_serializable: ^6.6.1
+  freezed: ^2.3.2
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+  fl_chart: ^0.69.2
+
+dev_dependencies:
+  # Flutter test framework
+  flutter_test:
+    sdk: flutter
+
+  # Flutter lints for static code analysis
+  flutter_lints: ^2.0.0
+
+  # Code generation tools for dependency injection, routing, and network communication
+  build_runner: any
+  flutter_gen_runner: any
+  injectable_generator: ^1.5.5
+  dart_code_metrics: ^5.7.3
+  retrofit_generator: ^4.2.0
+
+flutter_gen:
+  output: lib/gen # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/env/
