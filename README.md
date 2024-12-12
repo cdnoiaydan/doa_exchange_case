@@ -2,7 +2,12 @@
 
 DOA Exchange is a Flutter-based mobile application that allows users to view exchange rates between selected currencies and update this data instantly. The app also provides graphical representation of the last 7 days' exchange rate movements. 🌍
 
----
+## 🖼 Screenshots
+![Simulator Screenshot - iPhone 15 Pro - 2024-12-12 at 15 03 27](https://github.com/user-attachments/assets/7b112098-a02e-48be-8e43-c1127e6f09f6)
+
+![Simulator Screenshot - iPhone 15 Pro - 2024-12-12 at 15 03 29](https://github.com/user-attachments/assets/2482dccc-6865-44d3-8864-92ef6b7bb4e0)
+
+![Simulator Screenshot - iPhone 15 Pro - 2024-12-12 at 15 03 37](https://github.com/user-attachments/assets/17b87605-1123-495d-80ab-8de6997ca6e2)
 
 ## 🌐 Features
 
@@ -52,9 +57,3 @@ This project uses [FreeCurrencyAPI](https://api.freecurrencyapi.com) to fetch ex
 
 - **Monthly Limit:** 5000 requests
 - **Rate Limit:** 10 requests per minute
-
----
-
-## 🖼 Screenshots
-
-Screenshots will be added soon! ✨
