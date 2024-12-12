@@ -57,7 +57,7 @@ This project is developed using the Flutter framework and includes the following
 
 ## 📝 Data Provider
 
-This project uses [FreeCurrencyAPI](https://api.freecurrencyapi.com) to fetch exchange rate data.
+This project uses [FreeCurrencyAPI](https://freecurrencyapi.com) to fetch exchange rate data.
 
 - **Monthly Limit:** 5000 requests
 - **Rate Limit:** 10 requests per minute
